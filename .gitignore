@@ -1,0 +1,24 @@
+# Local secrets -- commit ONLY the .example templates, never the filled files
+wifi_secrets.h
+bridge_secrets.h
+config.json
+
+# Compiled firmware / build output
+*.bin
+*.elf
+*.map
+build/
+
+# Bridge runtime state
+*.log
+presses.jsonl
+bridge_state.json
+captions.json
+ears-tmp/
+__pycache__/
+venv/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
